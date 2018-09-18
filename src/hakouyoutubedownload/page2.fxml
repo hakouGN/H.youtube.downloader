@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="anchor" prefHeight="500.0" prefWidth="600.0" styleClass="ap2" stylesheets="@page2.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hakouyoutubedownload.Page2Controller">
+<AnchorPane fx:id="anchor" prefHeight="500.0" prefWidth="600.0" styleClass="ap2" stylesheets="@page2.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hakouyoutubedownload.Page2Controller">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" prefHeight="78.0" prefWidth="607.0" stylesheets="@page2.css" text="Youtube.Downloader" textAlignment="CENTER" textFill="WHITE">
          <font>
@@ -37,7 +37,7 @@
             <Font name="Berlin" size="20.0" />
          </font>
       </JFXTextField>
-      <JFXComboBox fx:id="quality" editable="true" focusColor="WHITE" labelFloat="true" layoutX="227.0" layoutY="213.0" prefHeight="38.0" prefWidth="159.0" promptText="Quality" styleClass="combo" stylesheets="@page2.css" unFocusColor="#464c58" visibleRowCount="2" />
+      <JFXComboBox fx:id="quality" focusColor="WHITE" labelFloat="true" layoutX="227.0" layoutY="213.0" prefHeight="38.0" prefWidth="159.0" promptText="Quality" styleClass="combo" stylesheets="@page2.css" unFocusColor="#464c58" visibleRowCount="2" />
       <JFXButton fx:id="btndownload" buttonType="RAISED" layoutX="378.0" layoutY="295.0" prefHeight="50.0" prefWidth="113.0" styleClass="btndownload" stylesheets="@page2.css" text="Download" textFill="WHITE">
          <graphic>
             <FontAwesomeIconView fill="#464c58" glyphName="DOWNLOAD" size="30" styleClass="font5" />
