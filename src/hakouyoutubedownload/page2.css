@@ -1,0 +1,56 @@
+.ap2{
+    -fx-webkit-transition-duration: 0.2s; 
+    -fx-transition-duration: 0.2s;
+    -fx-background-color:#ef5350;
+}
+
+.image {
+    
+}
+.label{
+    -fx-background-color: #464c58;
+}
+.font1{}
+.text{
+    -fx-text-fill: #f0f1f2;
+}
+.font2{}
+.combo{}
+.font3{}
+.btnreturn{
+    -fx-webkit-transition-duration: 0.4s; 
+    -fx-transition-duration: 0.4s;
+    -fx-text-fill:#464c58
+}                                       
+.btnreturn:hover{
+    -fx-border-color: #f0f1f2;
+    -fx-background-color: #ef5350; 
+    -fx-text-fill:#FFFFFF;
+
+}
+.btnsave{
+    -fx-webkit-transition-duration: 0.4s; 
+    -fx-transition-duration: 0.4s;
+        -fx-text-fill:#464c58
+
+}                                       
+.btnsave:hover{
+    -fx-border-color: #f0f1f2;
+    -fx-background-color: #ef5350; 
+        -fx-text-fill:#FFFFFF;
+}
+.font4{}
+
+.btndownload{
+    -fx-webkit-transition-duration: 0.4s; 
+    -fx-transition-duration: 0.4s;
+        -fx-text-fill:#464c58
+}                                       
+.btndownload:hover{
+    -fx-border-color: #f0f1f2;
+    -fx-background-color: #ef5350; 
+    -fx-text-fill:#FFFFFF;
+}
+
+.font5{}
+

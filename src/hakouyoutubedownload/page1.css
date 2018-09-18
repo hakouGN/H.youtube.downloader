@@ -1,0 +1,26 @@
+.btnclose{
+    -fx-background-color: #fc5753;
+     -fx-background-radius : 100;
+    -fx-border-color: #df4744;
+    -fx-border-radius: 100;
+}
+.btnstart{
+    -fx-webkit-transition-duration: 0.4s; 
+    -fx-transition-duration: 0.4s;
+}
+.btnstart:hover{
+        -fx-border-color: #f0f1f2;
+        -fx-background-color: #4d95dc; 
+}
+.btnchange{
+      -fx-webkit-transition-duration: 0.4s; 
+      -fx-transition-duration: 0.4s;
+}
+.btnchange:hover{
+        -fx-border-color: #f0f1f2;
+        -fx-background-color: #4d95dc; 
+}
+.colorpick{
+        -fx-color-label-visible: false ;
+        
+}
