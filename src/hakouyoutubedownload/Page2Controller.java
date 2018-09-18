@@ -20,10 +20,9 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import java.io.File;
-import javafx.animation.FadeTransition;
-import javafx.util.Duration;
 
 public class Page2Controller implements Initializable {
+    //declare componants
        @FXML
        private JFXButton btnreturn;
        
@@ -44,11 +43,10 @@ public class Page2Controller implements Initializable {
     @FXML
     private JFXProgressBar progres;
 
-        
+    // end declaration of componants    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         //return to scane 1
-       
         btnreturn.setOnAction( (ActionEvent e) ->{
             Stage stage = (Stage)anchor.getScene().getWindow();
             try {
@@ -68,9 +66,6 @@ public class Page2Controller implements Initializable {
             File file = fc.showSaveDialog(anchor.getScene().getWindow());
             String path = file.getPath();
             System.out.println(path);
-        
-        
-        
         });
     }    
     
