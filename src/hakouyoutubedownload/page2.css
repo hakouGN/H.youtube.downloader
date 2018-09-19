@@ -26,6 +26,8 @@
     -fx-border-color: #f0f1f2;
     -fx-background-color: #ef5350; 
     -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
 
 }
 .btnsave{
@@ -38,6 +40,8 @@
     -fx-border-color: #f0f1f2;
     -fx-background-color: #ef5350; 
         -fx-text-fill:#FFFFFF;
+        -fx-background-radius: 5px;
+        -fx-border-radius: 5px;
 }
 .font4{}
 
@@ -50,6 +54,8 @@
     -fx-border-color: #f0f1f2;
     -fx-background-color: #ef5350; 
     -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 5px;
+        -fx-border-radius: 5px;
 }
 
 .font5{}

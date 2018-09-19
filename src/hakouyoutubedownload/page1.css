@@ -11,6 +11,8 @@
 .btnstart:hover{
         -fx-border-color: #f0f1f2;
         -fx-background-color: #4d95dc; 
+        -fx-background-radius: 5px;
+        -fx-border-radius: 5px;
 }
 .btnchange{
       -fx-webkit-transition-duration: 0.4s; 

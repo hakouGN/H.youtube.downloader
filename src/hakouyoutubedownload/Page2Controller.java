@@ -1,6 +1,10 @@
 
 package hakouyoutubedownload;
 
+import animatefx.animation.BounceIn;
+import animatefx.animation.FadeInDown;
+import animatefx.animation.FadeOut;
+import animatefx.animation.Tada;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXProgressBar;
@@ -46,6 +50,16 @@ public class Page2Controller implements Initializable {
     // end declaration of componants    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        //set animation to button 
+        btndownload.setOnMouseEntered(e ->{
+                new Tada(btndownload).setSpeed(0.8).play();
+        });
+        btnsave.setOnMouseEntered(e ->{
+                new Tada(btnsave).setSpeed(0.8).play();
+        });
+        btnreturn.setOnMouseEntered(e ->{
+                new Tada(btnreturn).setSpeed(0.8).play();
+        });
         //return to scane 1
         btnreturn.setOnAction( (ActionEvent e) ->{
             Stage stage = (Stage)anchor.getScene().getWindow();
@@ -54,6 +68,9 @@ public class Page2Controller implements Initializable {
                 stage.setScene(new Scene(root));
                 stage.setX(483);//383
                stage.setY(234);//134
+               //set animation to return page 1
+                new BounceIn(root).setSpeed(0.4).play();
+
                
             } catch (IOException ex) {
                 Logger.getLogger(Page2Controller.class.getName()).log(Level.SEVERE, null, ex);
