@@ -49,6 +49,8 @@ public class HYDController implements Initializable {
            try {
                root = FXMLLoader.load(getClass().getResource("page2.fxml"));
                stage.setScene(new Scene(root));
+               stage.setX(383);//
+                stage.setY(134);//134 
         } catch (IOException ex) {
                Logger.getLogger(HYDController.class.getName()).log(Level.SEVERE, null, ex);
            }

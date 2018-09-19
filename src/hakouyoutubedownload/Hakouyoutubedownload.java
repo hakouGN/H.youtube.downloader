@@ -29,6 +29,8 @@ public class Hakouyoutubedownload extends Application {
         stage.initStyle(StageStyle.UNDECORATED);
         stage.getIcons().add(new Image(Hakouyoutubedownload.class.getResourceAsStream("logo.png")));
         stage.setScene(scene);
+        stage.setX(483);//383
+        stage.setY(234);//134
         stage.show();
     }
 

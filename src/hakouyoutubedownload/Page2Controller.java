@@ -52,6 +52,8 @@ public class Page2Controller implements Initializable {
             try {
                 Parent root =  FXMLLoader.load(getClass().getResource("HYD.fxml"));
                 stage.setScene(new Scene(root));
+                stage.setX(483);//383
+               stage.setY(234);//134
                
             } catch (IOException ex) {
                 Logger.getLogger(Page2Controller.class.getName()).log(Level.SEVERE, null, ex);
